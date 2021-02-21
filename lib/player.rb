@@ -28,9 +28,10 @@ class Player
 
   def player_move
     player_input = receive_input()
-    while validate_input(player_input) == false do
+    if validate_input(player_input) == false
       puts 'Invalid input. Try again'
-      player_input = receive_input()
+      skip
+      # player_input = receive_input()
     end
     player_input = convert_input(player_input)
     return player_input

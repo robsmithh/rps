@@ -32,9 +32,9 @@ describe Player do
     end
   end
 
-  describe '.player_move' do
-    it 'returns the players move' do
-      expect(player.player_move).to eq("Rock").or eq("Paper").or eq("Scissors")
-    end
-  end
+  # describe '.player_move' do
+  #   it 'returns the players move' do
+  #     expect(player.player_move).to eq("Rock").or eq("Paper").or eq("Scissors")
+  #   end
+  # end
 end
